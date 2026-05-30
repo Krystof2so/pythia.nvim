@@ -29,8 +29,8 @@ Protocol* (**LSP**), navigation dans le code, exécution des tests, et installat
 
 Acquérir des connaissances sur l'environnement <mark style="background: #D2B3FFA6;">Neovim</mark>/[[Lua]] et le développement de *plugins* pour <mark style="background: #D2B3FFA6;">Neovim</mark>  s'impose :
 
-- **Le Guide Lua officiel de Neovim** accessible via `:h lua-guide`. Ce guide pose les bases différentes couches de l'API (**Vim**, **Nvim**, **Lua**). Il montre également comment exécuter du code, gérer les options, les auto-commandes et les _keymaps_.
-- **Le manuel de référence Lua** accessible via `:h luaref`.
+- ✅ **Le Guide Lua officiel de Neovim** accessible via `:h lua-guide`. Ce guide pose les bases différentes couches de l'API (**Vim**, **Nvim**, **Lua**). Il montre également comment exécuter du code, gérer les options, les auto-commandes et les _keymaps_.
+- ✅ **Le manuel de référence Lua** accessible via `:h luaref`.
 - **Le Guide de Développement de Plugins Lua** accessible via `:h lua-plugin`. Guide spécifiquement conçu pour la création de _plugins_. C'est la référence technique pour structurer le projet.
 - [Build a Neovim plugin in Lua - Max Shen](https://dev.to/m4xshen/building-a-neovim-plugin-in-lua-54j9) : guide pour démarrer le développement d'un _plugin_.
 - [Develop a Neovim plugin in Lua — Max Shen](https://m4xshen.dev/posts/develop-a-neovim-plugin-in-lua) : guide court et précis.
@@ -52,7 +52,7 @@ Nous pouvons ensuite nous attaquer concrètement à la réalisation de ce projet
 	1. Sur <mark style="background: #D2B3FFA6;">GitHub</mark> : **New repository** → nom `pythia.nvim`, visibilité publique, sans `README` (Création en local).
 	2. Cloner le *repos* distant en local
 
-- **Générer la structure** (Architecture, arborescence)
+- ✅ **Générer la structure** (Architecture, arborescence)
 	Suggestion :
 
 ```txt
