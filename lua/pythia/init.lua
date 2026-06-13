@@ -1,10 +1,15 @@
 local M = {}
 
+--- Initialise le plugin
 function M.setup()
-	local project_name = vim.fn.input("Nom du projet Python à créer : ")
-	if project_name ~= "" then
-		vim.notify("Ok, le projet " .. project_name .. " va être créé", vim.log.levels.INFO)
-	end
+	-- Initialise les commandes
+	require("pythia.core.commands").setup()
+
+	-- Initialise les keymaps
+	require("pythia.core.keymaps").setup()
+
+	-- Initialise les autocmds
+	require("pythia.core.autocmd").setup()
 end
 
 return M

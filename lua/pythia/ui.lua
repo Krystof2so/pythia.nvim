@@ -1,0 +1,1 @@
+-- Gestion des interfacd (Telescope, snacks.nvim, etc.)
